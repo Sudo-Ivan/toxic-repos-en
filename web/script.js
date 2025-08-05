@@ -175,7 +175,11 @@ class ToxicReposSearch {
     
     renderResults() {
         if (this.filteredData.length === 0) {
-            this.results.innerHTML = '<div class="no-results">No results found. Try adjusting your search criteria.</div>';
+            this.results.textContent = '';
+            const noResults = document.createElement('div');
+            noResults.className = 'no-results';
+            noResults.textContent = 'No results found. Try adjusting your search criteria.';
+            this.results.appendChild(noResults);
             this.loadMoreContainer.classList.add('hidden');
             return;
         }
@@ -184,7 +188,11 @@ class ToxicReposSearch {
         const endIndex = Math.min(this.itemsPerPage, this.filteredData.length);
         const currentData = this.filteredData.slice(startIndex, endIndex);
         
-        this.results.innerHTML = currentData.map(record => this.createResultCard(record)).join('');
+        this.results.textContent = '';
+        currentData.forEach(record => {
+            const cardElement = this.createResultCardElement(record);
+            this.results.appendChild(cardElement);
+        });
         
         // Show/hide load more button
         if (this.filteredData.length > this.itemsPerPage) {
@@ -202,8 +210,10 @@ class ToxicReposSearch {
         const additionalData = this.filteredData.slice(startIndex, endIndex);
         
         if (additionalData.length > 0) {
-            const additionalHTML = additionalData.map(record => this.createResultCard(record)).join('');
-            this.results.innerHTML += additionalHTML;
+            additionalData.forEach(record => {
+                const cardElement = this.createResultCardElement(record);
+                this.results.appendChild(cardElement);
+            });
         }
         
         // Hide load more button if no more data
@@ -211,6 +221,58 @@ class ToxicReposSearch {
             this.loadMoreBtn.disabled = true;
             this.loadMoreBtn.textContent = 'No More Results';
         }
+    }
+    
+    createResultCardElement(record) {
+        const date = new Date(record.datetime).toLocaleDateString();
+        const problemType = record.problem_type || 'unknown';
+        
+        const card = document.createElement('div');
+        card.className = 'result-card';
+        
+        const header = document.createElement('div');
+        header.className = 'result-header';
+        
+        const headerContent = document.createElement('div');
+        
+        const name = document.createElement('div');
+        name.className = 'result-name';
+        name.textContent = record.name;
+        
+        const type = document.createElement('div');
+        type.className = `result-type ${problemType}`;
+        type.textContent = problemType.replace('_', ' ');
+        
+        headerContent.appendChild(name);
+        headerContent.appendChild(type);
+        header.appendChild(headerContent);
+        
+        const description = document.createElement('div');
+        description.className = 'result-description';
+        description.textContent = record.description || 'No description available';
+        
+        const footer = document.createElement('div');
+        footer.className = 'result-footer';
+        
+        const dateDiv = document.createElement('div');
+        dateDiv.className = 'result-date';
+        dateDiv.textContent = date;
+        footer.appendChild(dateDiv);
+        
+        if (record.commit_link) {
+            const link = document.createElement('a');
+            link.href = record.commit_link;
+            link.target = '_blank';
+            link.className = 'result-link';
+            link.textContent = 'View Source';
+            footer.appendChild(link);
+        }
+        
+        card.appendChild(header);
+        card.appendChild(description);
+        card.appendChild(footer);
+        
+        return card;
     }
     
     createResultCard(record) {
@@ -222,7 +284,7 @@ class ToxicReposSearch {
                 <div class="result-header">
                     <div>
                         <div class="result-name">${this.escapeHtml(record.name)}</div>
-                        <div class="result-type ${problemType}">${problemType.replace('_', ' ')}</div>
+                        <div class="result-type ${this.escapeHtml(problemType)}">${this.escapeHtml(problemType.replace('_', ' '))}</div>
                     </div>
                 </div>
                 
