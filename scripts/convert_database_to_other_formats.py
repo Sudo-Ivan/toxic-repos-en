@@ -47,7 +47,6 @@ def convert_csv_to_formats(csv_input_path: str, output_dir: str) -> None:
     
     # Create table with appropriate columns
     if row_names:
-        # Validate column names to prevent SQL injection
         safe_columns = []
         for col in row_names:
             # Only allow alphanumeric characters, underscores, and hyphens
@@ -57,12 +56,12 @@ def convert_csv_to_formats(csv_input_path: str, output_dir: str) -> None:
                 raise ValueError(f"Invalid column name: {col}")
         
         columns = ", ".join(safe_columns)
-        create_table_sql = f"CREATE TABLE repos ({columns})"
+        create_table_sql = "CREATE TABLE repos (" + columns + ")"
         cursor.execute(create_table_sql)
         
         # Insert data using parameterized query
         placeholders = ", ".join(["?" for _ in row_names])
-        insert_sql = f"INSERT INTO repos VALUES ({placeholders})"
+        insert_sql = "INSERT INTO repos VALUES (" + placeholders + ")"
         
         for row_data in csv_data:
             values = [row_data.get(col, "") for col in row_names]
