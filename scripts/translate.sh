@@ -95,8 +95,8 @@ cp "$INPUT_CSV" "$TEMP_CSV"
             fi
         fi
         
-        # Reconstruct the line
-        (IFS=','; echo "${FIELDS[*]}") >> "$TEMP_CSV.translated"
+        # Reconstruct the line using printf to avoid IFS tampering
+        printf '%s\n' "$(IFS=','; echo "${FIELDS[*]}")" >> "$TEMP_CSV.translated"
         
         # Add a small delay to avoid overwhelming the API
         sleep 0.1
