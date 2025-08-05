@@ -1,0 +1,138 @@
+name: Update from Upstream and Translate
+
+permissions:
+  contents: write
+  issues: write
+
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+    inputs:
+      upstream_repo:
+        description: 'Upstream repository (owner/repo)'
+        required: false
+        default: 'toxic-repos/toxic-repos'
+      upstream_branch:
+        description: 'Upstream branch to sync from'
+        required: false
+        default: 'main'
+
+jobs:
+  sync-upstream:
+    runs-on: ubuntu-latest
+    
+    outputs:
+      has_changes: ${{ steps.check_changes.outputs.has_changes }}
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+    
+    - name: Configure Git
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+    
+    - name: Add upstream remote
+      run: |
+        UPSTREAM_REPO="${{ github.event.inputs.upstream_repo || 'toxic-repos/toxic-repos' }}"
+        git remote add upstream "https://github.com/${UPSTREAM_REPO}.git" || true
+        git fetch upstream
+    
+    - name: Check for upstream changes
+      id: check_changes
+      run: |
+        UPSTREAM_BRANCH="${{ github.event.inputs.upstream_branch || 'main' }}"
+        
+        UPSTREAM_COMMIT=$(git rev-parse upstream/${UPSTREAM_BRANCH})
+        
+        if git merge-base --is-ancestor $UPSTREAM_COMMIT HEAD; then
+          echo "No new changes from upstream"
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "New changes found from upstream"
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+          
+          echo "Changes since last sync:"
+          git log --oneline HEAD..upstream/${UPSTREAM_BRANCH} --max-count=10
+        fi
+    
+    - name: Merge upstream changes
+      if: steps.check_changes.outputs.has_changes == 'true'
+      run: |
+        UPSTREAM_BRANCH="${{ github.event.inputs.upstream_branch || 'main' }}"
+        
+        git merge upstream/${UPSTREAM_BRANCH} --no-edit || {
+          echo "Merge conflict detected. Manual intervention required."
+          exit 1
+        }
+        
+        git push origin main
+    
+    - name: Create sync summary
+      if: steps.check_changes.outputs.has_changes == 'true'
+      run: |
+        echo "# Upstream Sync Summary" > sync-summary.md
+        echo "" >> sync-summary.md
+        echo "- **Upstream repository**: ${{ github.event.inputs.upstream_repo || 'toxic-repos/toxic-repos' }}" >> sync-summary.md
+        echo "- **Upstream branch**: ${{ github.event.inputs.upstream_branch || 'main' }}" >> sync-summary.md
+        echo "- **Sync date**: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> sync-summary.md
+        echo "- **New commits**: $(git rev-list --count HEAD~10..HEAD)" >> sync-summary.md
+        echo "" >> sync-summary.md
+        echo "## Recent Changes" >> sync-summary.md
+        git log --oneline HEAD~5..HEAD >> sync-summary.md
+        
+        cat sync-summary.md
+
+  translate-after-sync:
+    needs: sync-upstream
+    if: needs.sync-upstream.outputs.has_changes == 'true'
+    uses: ./.github/workflows/translate.yml
+    
+  create-update-issue:
+    needs: [sync-upstream, translate-after-sync]
+    runs-on: ubuntu-latest
+    if: needs.sync-upstream.outputs.has_changes == 'true'
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Create update issue
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const title = `Upstream sync completed - ${new Date().toISOString().split('T')[0]}`;
+          const body = `## Upstream Sync Completed
+          
+          The repository has been automatically updated with the latest changes from upstream.
+          
+          ### What happened:
+          - Synced with upstream repository
+          - Merged new changes
+          - Triggered automatic translation
+          - Updated English data in \`data-en/\`
+          
+          ### Next steps:
+          - Review the changes in the latest commits
+          - Check the web interface for updated translations
+          - Close this issue when satisfied with the sync
+          
+          ### Files updated:
+          - Original data: \`data/\`
+          - Translated data: \`data-en/\`
+          - Web interface data sources
+          
+          This sync was performed automatically by GitHub Actions.`;
+          
+          github.rest.issues.create({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            title: title,
+            body: body,
+            labels: ['automated', 'upstream-sync', 'translation']
+          });

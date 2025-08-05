@@ -1,0 +1,166 @@
+name: Translate Toxic Repos Data
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  pages: write
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'data/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'data/**'
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * *'
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y curl python3-pip
+    
+    - name: Check if data exists
+      run: |
+        if [ ! -f "./data/csv/toxic-repos.csv" ]; then
+          echo "No data found to translate"
+          exit 0
+        fi
+        echo "Data found, proceeding with translation"
+    
+    - name: Set up Docker for LibreTranslate
+      run: |
+        docker pull libretranslate/libretranslate:latest
+    
+    - name: Run translation workflow
+      run: |
+        ./workflow.sh --docker
+      timeout-minutes: 60
+    
+    - name: Check translation results
+      run: |
+        if [ -f "./data-en/csv/toxic-repos.csv" ]; then
+          echo "Translation successful"
+          echo "Original records: $(( $(wc -l < ./data/csv/toxic-repos.csv) - 1 ))"
+          echo "Translated records: $(( $(wc -l < ./data-en/csv/toxic-repos.csv) - 1 ))"
+          echo ""
+          echo "Sample translations:"
+          head -5 ./data-en/csv/toxic-repos.csv
+        else
+          echo "Translation failed - no output file"
+          exit 1
+        fi
+    
+    - name: Commit and push translated data
+      if: github.event_name != 'pull_request'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data-en/
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Auto-translate toxic repos data to English
+
+          - Translated $(( $(wc -l < ./data-en/csv/toxic-repos.csv) - 1 )) records
+          - Generated CSV, JSON, and SQLite formats
+          - Source: $(git rev-parse --short HEAD)"
+          git push
+        fi
+    
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: translated-data
+        path: |
+          data-en/
+        retention-days: 30
+    
+    - name: Create deployment info
+      if: success()
+      run: |
+        echo "# Translation Summary" > translation-summary.md
+        echo "" >> translation-summary.md
+        echo "- **Original records**: $(( $(wc -l < ./data/csv/toxic-repos.csv) - 1 ))" >> translation-summary.md
+        echo "- **Translated records**: $(( $(wc -l < ./data-en/csv/toxic-repos.csv) - 1 ))" >> translation-summary.md
+        echo "- **Formats generated**: CSV, JSON, SQLite" >> translation-summary.md
+        echo "- **Translation date**: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> translation-summary.md
+        echo "- **Commit**: $(git rev-parse --short HEAD)" >> translation-summary.md
+        cat translation-summary.md
+    
+    - name: Comment on PR
+      if: github.event_name == 'pull_request'
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const fs = require('fs');
+          const summary = fs.readFileSync('translation-summary.md', 'utf8');
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: `## Translation Results\n\n${summary}\n\nTranslation completed successfully!`
+          });
+
+  deploy-web:
+    needs: translate
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        ref: main
+    
+    - name: Download translated data
+      uses: actions/download-artifact@v3
+      with:
+        name: translated-data
+        path: data-en/
+    
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./web
+        destination_dir: .
+    
+    - name: Create release
+      if: github.event_name == 'push'
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: auto-translate-${{ github.run_number }}
+        release_name: Auto Translation ${{ github.run_number }}
+        body: |
+          Automated translation of toxic repos data to English.
+          
+          - **Records translated**: $(( $(wc -l < ./data-en/csv/toxic-repos.csv) - 1 ))
+          - **Formats**: CSV, JSON, SQLite
+          - **Web interface**: Available at GitHub Pages
+          
+          Generated by GitHub Actions workflow.
+        draft: false
+        prerelease: false
