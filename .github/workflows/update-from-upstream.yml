@@ -38,17 +38,18 @@ jobs:
         git config --local user.name "GitHub Action"
     
     - name: Add upstream remote
+      env:
+        UPSTREAM_REPO: ${{ github.event.inputs.upstream_repo || 'toxic-repos/toxic-repos' }}
       run: |
-        UPSTREAM_REPO="${{ github.event.inputs.upstream_repo || 'toxic-repos/toxic-repos' }}"
         git remote add upstream "https://github.com/${UPSTREAM_REPO}.git" || true
         git fetch upstream
     
     - name: Check for upstream changes
       id: check_changes
+      env:
+        UPSTREAM_BRANCH: ${{ github.event.inputs.upstream_branch || 'main' }}
       run: |
-        UPSTREAM_BRANCH="${{ github.event.inputs.upstream_branch || 'main' }}"
-        
-        UPSTREAM_COMMIT=$(git rev-parse upstream/${UPSTREAM_BRANCH})
+        UPSTREAM_COMMIT=$(git rev-parse upstream/"${UPSTREAM_BRANCH}")
         
         if git merge-base --is-ancestor $UPSTREAM_COMMIT HEAD; then
           echo "No new changes from upstream"
@@ -58,15 +59,15 @@ jobs:
           echo "has_changes=true" >> $GITHUB_OUTPUT
           
           echo "Changes since last sync:"
-          git log --oneline HEAD..upstream/${UPSTREAM_BRANCH} --max-count=10
+          git log --oneline HEAD..upstream/"${UPSTREAM_BRANCH}" --max-count=10
         fi
     
     - name: Merge upstream changes
       if: steps.check_changes.outputs.has_changes == 'true'
+      env:
+        UPSTREAM_BRANCH: ${{ github.event.inputs.upstream_branch || 'main' }}
       run: |
-        UPSTREAM_BRANCH="${{ github.event.inputs.upstream_branch || 'main' }}"
-        
-        git merge upstream/${UPSTREAM_BRANCH} --no-edit || {
+        git merge upstream/"${UPSTREAM_BRANCH}" --no-edit || {
           echo "Merge conflict detected. Manual intervention required."
           exit 1
         }
@@ -75,11 +76,14 @@ jobs:
     
     - name: Create sync summary
       if: steps.check_changes.outputs.has_changes == 'true'
+      env:
+        UPSTREAM_REPO: ${{ github.event.inputs.upstream_repo || 'toxic-repos/toxic-repos' }}
+        UPSTREAM_BRANCH: ${{ github.event.inputs.upstream_branch || 'main' }}
       run: |
         echo "# Upstream Sync Summary" > sync-summary.md
         echo "" >> sync-summary.md
-        echo "- **Upstream repository**: ${{ github.event.inputs.upstream_repo || 'toxic-repos/toxic-repos' }}" >> sync-summary.md
-        echo "- **Upstream branch**: ${{ github.event.inputs.upstream_branch || 'main' }}" >> sync-summary.md
+        echo "- **Upstream repository**: ${UPSTREAM_REPO}" >> sync-summary.md
+        echo "- **Upstream branch**: ${UPSTREAM_BRANCH}" >> sync-summary.md
         echo "- **Sync date**: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> sync-summary.md
         echo "- **New commits**: $(git rev-list --count HEAD~10..HEAD)" >> sync-summary.md
         echo "" >> sync-summary.md
