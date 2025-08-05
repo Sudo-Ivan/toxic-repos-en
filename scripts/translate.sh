@@ -29,14 +29,31 @@ if ! curl -s "$LIBRETRANSLATE_URL/languages" > /dev/null; then
     exit 1
 fi
 
+# Function to detect if text needs translation (contains Cyrillic characters)
+needs_translation() {
+    local text="$1"
+    # Check if text contains Cyrillic characters
+    if [[ "$text" =~ [А-Яа-яЁё] ]]; then
+        return 0  # true
+    else
+        return 1  # false
+    fi
+}
+
 # Function to translate text
 translate_text() {
     local text="$1"
     local source_lang="$2"
     local target_lang="$3"
     
-    # Skip translation if text is empty or already in English
-    if [[ -z "$text" || "$text" == "description" ]]; then
+    # Skip translation if text is empty, is a header, or doesn't need translation
+    if [[ -z "$text" || "$text" == "description" || "$text" == "name" || "$text" == "commit_link" ]]; then
+        echo "$text"
+        return
+    fi
+    
+    # Skip if text doesn't contain Cyrillic characters
+    if ! needs_translation "$text"; then
         echo "$text"
         return
     fi
@@ -76,21 +93,50 @@ cp "$INPUT_CSV" "$TEMP_CSV"
         # Parse CSV fields (simple parsing - assumes no commas in quoted fields for this use case)
         IFS=',' read -ra FIELDS <<< "$line"
         
-        # Translate the description field (index 5, 0-based)
+        # Translate multiple fields that might contain Russian text
+        # Field 3: name, Field 4: commit_link, Field 5: description
+        
+        # Translate name field (index 3)
+        if [[ ${#FIELDS[@]} -gt 3 ]]; then
+            name="${FIELDS[3]}"
+            # Remove quotes if present
+            name="${name#\"}"
+            name="${name%\"}"
+            
+            if needs_translation "$name"; then
+                echo "  Translating name: $name"
+                translated_name=$(translate_text "$name" "ru" "en")
+                echo "  Result: $translated_name"
+                FIELDS[3]="\"$translated_name\""
+            fi
+        fi
+        
+        # Translate commit_link field (index 4) - might contain Russian text in URLs or descriptions
+        if [[ ${#FIELDS[@]} -gt 4 ]]; then
+            commit_link="${FIELDS[4]}"
+            # Remove quotes if present
+            commit_link="${commit_link#\"}"
+            commit_link="${commit_link%\"}"
+            
+            if needs_translation "$commit_link"; then
+                echo "  Translating commit_link: $commit_link"
+                translated_commit_link=$(translate_text "$commit_link" "ru" "en")
+                echo "  Result: $translated_commit_link"
+                FIELDS[4]="\"$translated_commit_link\""
+            fi
+        fi
+        
+        # Translate description field (index 5)
         if [[ ${#FIELDS[@]} -gt 5 ]]; then
             description="${FIELDS[5]}"
-            
             # Remove quotes if present
             description="${description#\"}"
             description="${description%\"}"
             
-            # Translate from Russian to English
-            if [[ -n "$description" && "$description" != "" ]]; then
-                echo "  Translating: $description"
+            if needs_translation "$description"; then
+                echo "  Translating description: $description"
                 translated_desc=$(translate_text "$description" "ru" "en")
                 echo "  Result: $translated_desc"
-                
-                # Replace the description field
                 FIELDS[5]="\"$translated_desc\""
             fi
         fi
