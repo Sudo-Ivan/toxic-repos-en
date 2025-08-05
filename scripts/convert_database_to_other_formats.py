@@ -47,11 +47,20 @@ def convert_csv_to_formats(csv_input_path: str, output_dir: str) -> None:
     
     # Create table with appropriate columns
     if row_names:
-        columns = ", ".join([f'"{col}" TEXT' for col in row_names])
+        # Validate column names to prevent SQL injection
+        safe_columns = []
+        for col in row_names:
+            # Only allow alphanumeric characters, underscores, and hyphens
+            if col and all(c.isalnum() or c in '_-' for c in col):
+                safe_columns.append(f'"{col}" TEXT')
+            else:
+                raise ValueError(f"Invalid column name: {col}")
+        
+        columns = ", ".join(safe_columns)
         create_table_sql = f"CREATE TABLE repos ({columns})"
         cursor.execute(create_table_sql)
         
-        # Insert data
+        # Insert data using parameterized query
         placeholders = ", ".join(["?" for _ in row_names])
         insert_sql = f"INSERT INTO repos VALUES ({placeholders})"
         
