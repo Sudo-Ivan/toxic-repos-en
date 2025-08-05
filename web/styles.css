@@ -354,6 +354,26 @@ header p {
     color: #87ceeb;
 }
 
+.result-type.political_slogans {
+    background-color: #2a1a3a;
+    color: #dda0dd;
+}
+
+.result-type.ip_block {
+    background-color: #3a2a1a;
+    color: #ffa500;
+}
+
+.result-type.hostile_actions {
+    background-color: #1a2a1a;
+    color: #90ee90;
+}
+
+.result-type.unknown {
+    background-color: #2a2a2a;
+    color: #cccccc;
+}
+
 .result-description {
     color: #c0c0c0;
     margin-bottom: 15px;
