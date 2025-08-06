@@ -3,6 +3,8 @@ name: Update from Upstream and Translate
 permissions:
   contents: write
   issues: write
+  pull-requests: write
+  pages: write
 
 on:
   schedule:
