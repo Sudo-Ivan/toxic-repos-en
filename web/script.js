@@ -2,7 +2,7 @@ class ToxicReposSearch {
     constructor() {
         this.data = [];
         this.filteredData = [];
-        this.currentDataSource = 'original';
+        this.currentDataSource = 'translated';
         this.currentPage = 0;
         this.itemsPerPage = 20;
         
