@@ -175,7 +175,7 @@
         "problem_type": "ddos",
         "name": "russia-must-be-stopped",
         "commit_link": "https://github.com/zozulinskyi/russia-must-be-stopped/commits/main",
-        "description": "Скрипт встраиваемый в браузер и превращающий его в своебразного \"зомби\" в бот-сети. + лежит 2 текстовых файлика со списками url-жертв.",
+        "description": "The script is embedded in the browser and turns it into a kind of \"zombie\" in the botnet. + lies 2 text files with lists of url victims.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -465,29 +465,9 @@
         "problem_type": "ddos",
         "name": "db1000n",
         "commit_link": "https://github.com/Arriven/db1000n",
-        "description": "Координатор целей атаки для ботов https://github.com/db1000n-coordinators/LoadTestConfig/blob/main/config.v0.7.json\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Вероятный чат поддержки https://t.me/db1000nX100",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Один из авторов https://www.codementor.io/@bohdanivashko\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "Attack target coordinator for https bots:/ /github.com/db1000n-coordinators/LoadTestConfig/blob/main/config. v0.7.json.\n\nProbable chat support https://t.me/db1000nX100\nOne of the authors of https://www.codementor.io/@bohdanivashko",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "720",
@@ -525,12 +505,9 @@
         "problem_type": "hostile_actions",
         "name": "Gloss",
         "commit_link": "https://drupal.ru/glyanec-scam",
-        "description": "The company Glyanets\" embeds malicious code on customer sites to bypass protection and gain full access to sites. They call it \"service entrance.\" February 26",
-        "PURL-link": " the head of “Glianets” Zaika Anatoly in a public telegram chat said this\"",
-        "PURL": "",
-        "null": [
-            ""
-        ]
+        "description": "The company \"Glyanets\" embeds malicious code on customer sites to bypass protection and gain full access to sites. They call it \"service entrance.\" February 26, the head of “Glianets” Zaika Anatoly in a public telegram chat said this",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "20",
@@ -608,7 +585,7 @@
         "problem_type": "hostile_actions",
         "name": "dell.com",
         "commit_link": "https://www.dell.com/restrictions/support/ru-ru/index.html",
-        "description": "Заблокировали возможность скачивания драйверов из России. Вывод сообщения \"В настоящее время компания Dell не может оказывать техническую поддержку на территории России. Приносим извинения за доставленные неудобства.\"",
+        "description": "Blocked the possibility of downloading drivers from Russia. Dell is currently unable to provide technical support in Russia. We apologize for the inconvenience",
         "PURL-link": "",
         "PURL": ""
     },
@@ -648,7 +625,7 @@
         "problem_type": "hostile_actions",
         "name": "DeskCamera",
         "commit_link": "https://www.deskcamera.com",
-        "description": "Блокируют проплаченные и активированные лицензии в России. Техподдержка отвечает \"Слава Украине\".",
+        "description": "Block paid and activated licenses in Russia. Technical support answers \"Glory to Ukraine.\".",
         "PURL-link": "",
         "PURL": ""
     },
@@ -768,7 +745,7 @@
         "problem_type": "hostile_actions",
         "name": "UpdatePack 7 / 2008 R2 / 22.3.11",
         "commit_link": "https://blog.simplix.info/",
-        "description": "UpdatePack 7 / 2008 R2 / 22.3.11 В сборке от 11.03 при работе в системе с заданными TZ из России или Беларуси показывает сообщение \"ваша страна поддерживает войну...\" и работа завершается.",
+        "description": "UpdatePack 7 / 2008 R2 / 22.3.11 In the build from 11.03 when working in the system with the given TZ from Russia or Belarus shows the message \"your country supports the war ...\" and the work is completed.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -838,7 +815,7 @@
         "problem_type": "hostile_actions",
         "name": "HPE",
         "commit_link": "https://hpe.com",
-        "description": "HPE заблокировал аккаунты из РФ и Беларуси (Есть файлы которые без зарегистрированного аккаунта с привязанным серийным номером не скачать) 24 марта пришло письмо от \"HPE Headquarters\" <no-reply@hpe.com> Due to regulatory requirements HPE registered users in Russia and Belarus were deactivated on 22 March 2022 until further notice. This will result in not being allowed access to information and services that reside within HPE.",
+        "description": "HPE has blocked accounts from Russia and Belarus (There are files without a registered account with a linked serial number do not download) on March 24, an email from HPE Headquarters <no-reply@hpe.com> Due to regulatory requirements HPE registered users in Russia and Belarus were deactivated on March 22, 2022 further notice. This will result in not being allowed access to information and services that reside within HPE.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -1018,7 +995,7 @@
         "problem_type": "hostile_actions",
         "name": "Udemy (online courses)",
         "commit_link": "https://www.udemy.com/",
-        "description": "На главной странице: \"На данный момент мы не принимаем оплату новых регистраций на курсы от учащихся из России.\"",
+        "description": "At the moment, we do not accept payment for new registrations for courses from students from Russia",
         "PURL-link": "",
         "PURL": ""
     },
@@ -1038,7 +1015,7 @@
         "problem_type": "hostile_actions",
         "name": "Weblium",
         "commit_link": "https://weblium.com",
-        "description": "Сообщение \"Weblium приостанавливает все новые продажи продуктов и услуг в России\". Политические лозунги видео. Не пускает в админку сайта",
+        "description": "Weblium suspends all new sales of products and services in Russia. Video political slogans. Do not allow in the admin site",
         "PURL-link": "",
         "PURL": ""
     },
@@ -1048,29 +1025,9 @@
         "problem_type": "hostile_actions",
         "name": "Parallels",
         "commit_link": "https://parallels.com",
-        "description": "Удалили русский перевод сайта. Пропаганда.\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "https://imgbox.com/vIwZXDIO",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "https://imgbox.com/ZJ11M8bf\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "Deleted the Russian translation of the site. Propaganda.\nhttps://imgbox.com/vIwZXDIO\nhttps:/ /imgbox.com/ZJ11M8bf",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "444",
@@ -1088,29 +1045,9 @@
         "problem_type": "hostile_actions",
         "name": "Archi",
         "commit_link": "https://github.com/archimatetool/archi",
-        "description": "Archi - opensource продукт для создания моделей и эскизов ArchiMate \n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "используется корпоративными архитекторами повсеместно.",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "На сайте продукта www.archimatetool.com добавили баннер для сбора пожертвований для Украины.\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "Archi - open source product for creating models and sketches ArchiMate\nIt is used by corporate architects everywhere.\nThe product website www.archimatetool.com added a banner to collect donations for Ukraine.",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "448",
@@ -1118,19 +1055,9 @@
         "problem_type": "hostile_actions",
         "name": "CCleaner",
         "commit_link": "https://www.ccleaner.com/ru-ru/ccleaner/download/standard",
-        "description": "При попытке скачать бесплатную версию перебрасывает на страничку https://bits.avcdn.net/productfamily_CCLEANER/insttype_FREE/platform_WIN_PIR/installertype_ONLINE/build_RELEASE/cookie_mmm_ccl_008_999_a6d_m\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Возможно такое же поведение и с avast т.к. разработчик один (Чехия)\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "If you try to download the free version, you can upload it to https://bits.avcdn.net/productfamily_CCLEANER/insttype_FREE/platform_WIN_PIR/installertype_ONLINE/build_RELEASE/cookie_mm_ccl_008_999_a6d_m\nIt is possible the same behavior with avast because the developer is one (Czech Republic)",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "449",
@@ -1138,19 +1065,9 @@
         "problem_type": "hostile_actions",
         "name": "SAP",
         "commit_link": "https://www.ixbt.com/news/2022/04/20/krupnejshij-razrabotchik-po-sap-polnostju-uhodit-iz-rossii.html",
-        "description": "Полностью выводят бизнес который они вели здесь более 30 лет.\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Призывают вывести свои данные из облака за пределы России которое здесь будет заблокировано. Подсанкционным фирмам не будут продлевать лицензии. Локальные продукты пока будут работать.\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "They have been doing business here for over 30 years.\nCalls to withdraw their data from the cloud outside Russia, which will be blocked here. Subsanctioned firms will not renew licenses. Local products will still work.",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "450",
@@ -1168,39 +1085,9 @@
         "problem_type": "hostile_actions",
         "name": "MaxMind GeoLite2",
         "commit_link": "https://dev.maxmind.com/geoip/geolite2-free-geolocation-data",
-        "description": "Прислали письмо:\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Dear GeoLite User ",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "In order to maintain compliance with US sanctions against certain Russian entities MaxMind is exercising its right to terminate your free access to the GeoLite2 Databases or Web Services per Section 10.(b) of the GeoLite2 End User License Agreement.",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Your account will no longer have access to the GeoLite2 Databases or Web Services on Monday April 25 2022.\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "Sent a letter:\n\nDear GeoLite User\n\nIn order to maintain compliance with US sanctions against certain Russian entities, MaxMind is exercising its right to terminate your free access to the GeoLite2 Databases or Web Services per Section 10.(b) of the GeoLite2 End User License Agreement.\n\nYour account will no longer have access to the GeoLite2 Databases or Web Services on Monday April 25, 2022.",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "458",
@@ -1218,69 +1105,9 @@
         "problem_type": "hostile_actions",
         "name": "letyshops",
         "commit_link": "https://letyshops.com/ru",
-        "description": "при входе на сайт из России:\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "На данный момент сервис недоступен в этом регионе",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "В вашем аккаунте указан регион РФ.",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Если это ошибка и вы не относитесь к региону РФ напишите пожалуйста на почту info@letyshops.ru",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Вывести кэшбэк на благотворительность",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Пришло время пояснить почему вы не можете пользоваться сервисом.",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Я - украинец. Живу в Украине. И у нас война. и т.д.\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "when entering the site from Russia:\nThe service is currently unavailable in the region.\nYour account includes the region of the Russian Federation.\nIf this is a mistake and you do not belong to the region of the Russian Federation please email info@letyshops.ru\nBringing cashback to charity\nIt’s time to explain why you can’t use the service.\nI'm Ukrainian. I live in Ukraine. And we're at war, etc.",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "474",
@@ -1288,29 +1115,9 @@
         "problem_type": "hostile_actions",
         "name": "SmartFix",
         "commit_link": "https://smartfix.pro/",
-        "description": "Еще софт от Simplix - украинского автора \"Набор обновлений UpdatePack7R2\". SmartFix - это утилита для решения проблем Windows которая внедрена во многие популярные WinPE для восстановления системы. Эта утилита проверяет целостность системных файлов запрашивает контрольные суммы со своего сервера скачивает антивирусы собственное средство WinRepair восстанавливает битые системные библиотеки и делает многое другое.\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Есть вероятность деструктивных действий для российских пользователей по команде с сервера.",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Другие продукты автора - SmartMon и LightBackup.\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "More software from Simplix - Ukrainian author \"UpdatePack7R2 Update Pack\". SmartFix is a Windows problem solving utility that is embedded in many popular WinPEs for system recovery. This utility checks the integrity of system files requests checksums from its server downloads antiviruses its own tool WinRepair restores broken system libraries and does much more.\nThere is a possibility of destructive actions for Russian users on command from the server.\nOther products are SmartMon and LightBackup.",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "475",
@@ -1318,19 +1125,9 @@
         "problem_type": "hostile_actions",
         "name": "TeamViewer",
         "commit_link": "https://www.teamviewer.com/ru/",
-        "description": "Сегодня днем ничего не подозревающие сисадмины и айтишники не смогли воспользоваться TeamViewer. Программа самопроизвольно закрывается и не позволяет подключиться повторно.\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Мы решили полностью прекратить любую оставшуюся деловую активность в России и Беларуси\"\" - говорится в сообщении на официальном сайте немецкой компании. Бесплатные версии заблокированы. Действующие подписки будут действительны до окончания их срока действия но не будут продлеваться.\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "This afternoon, unsuspecting sysadmins and IT specialists were unable to use TeamViewer. The program spontaneously closes and does not allow you to connect again.\n“We have decided to completely cease any remaining business activity in Russia and Belarus,” the company said in a statement. Free versions are blocked. Existing subscriptions will be valid until their expiration date but will not be renewed.",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "476",
@@ -1348,19 +1145,9 @@
         "problem_type": "hostile_actions",
         "name": "Confluence",
         "commit_link": "https://www.atlassian.com",
-        "description": "Confluence не дает заргистрировать даже бесплатный аккаунт (до 10 пользователей) с IP РФ/РБ:\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "We stand with Ukraine; We have a commitment to our customers to provide a trusted service. In response we are pausing the sales of all new software to Russia\"\"\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "Confluence does not allow you to register even a free account (up to 10 users) with IP RF / RB:\n“We stand with Ukraine; we have a commitment to our customers to provide a trusted service. In response, we are pausing the sales of all new software to Russia",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "481",
@@ -1378,7 +1165,7 @@
         "problem_type": "hostile_actions",
         "name": "Cisco",
         "commit_link": "https://cisco.com",
-        "description": "9 марта был заблокирован корпоративный аккаунт cisco. Писем-уведомлений не было. После попытки авторизации на странице выдаёт: Access Denied. You don't have permission to access \"http://id.cisco.com/oauth2/default/v1/authorize?\" on this server.",
+        "description": "On March 9, the cisco account was blocked. There were no notification letters. After attempting to log in, the page displays: Access Denied. You don't have permission to access \"http://id.cisco.com/oauth2/default/v1/authorize?\" on this server.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -1388,19 +1175,9 @@
         "problem_type": "hostile_actions",
         "name": "VMware",
         "commit_link": "https://vmware.com",
-        "description": "Корпоративный аккаунт vmware.com был заблокирован 9 марта все тикеты были сразу закрыты. Прислали письмо:\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "The U.S. Office of Foreign Assets Control and the U.S. Department of Commerce Bureau of Industry & Security have recently issued prohibitions and sanctions according to which U.S. companies (as well as their foreign-affiliated companies) are prohibited from certain or all commercial and/or financial activities with certain entities in Russia Ukraine and Belarus and/or relating to certain products.\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "The vmware.com corporate account was blocked on March 9. Sent a letter:\n\nThe U.S. Office of Foreign Assets Control and the U.S. Department of Commerce Bureau of Industry & Security have recently issued prohibitions and sanctions according to which U.S. companies (as well as their foreign-affiliated companies) are prohibited from certain or all commercial and/or financial activities with certain entities in Russia and Belarus and/or relating to certain products.",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "485",
@@ -1418,7 +1195,7 @@
         "problem_type": "hostile_actions",
         "name": "zerofix",
         "commit_link": "https://gitlab.com/zerofix1/zerofix",
-        "description": "под предлогом улучшения производительности продвигает ряд \"патчей\" для Wine. Это софт на получение удаленного контроля над вашим ПК. Патчи для Wine устанавливаются только на исходный код. А то что предлагается на данном репозитории не является патчем для Wine. Сейчас данный репозиторий уже недоступен но возможно появление форков.",
+        "description": "under the pretext of improving performance, he promotes a number of “patches” for Wine. This is a software to gain remote control over your PC. Patches for Wine are only installed on source code. And what is offered on this repository is not a patch for Wine. Now this repository is no longer available, but there may be forks.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -1428,7 +1205,7 @@
         "problem_type": "hostile_actions",
         "name": "eMule",
         "commit_link": "https://www.emule-project.com",
-        "description": "Open-source P2P file sharing client. Вместо русской версии сайта надпись \"Война никогда не меняется\" и внизу ссылка на англ. сайт.",
+        "description": "Open source P2P file sharing client. Instead of the Russian version of the site, the inscription \"War never changes\" and the link to the English website at the bottom.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -1448,7 +1225,7 @@
         "problem_type": "hostile_actions",
         "name": "Kingston",
         "commit_link": "https://www.kingston.com/ru/company/press/article/65778",
-        "description": "Выводит на сайте плашку с заявлением по Украине. Утверждают что \"In light of the unprecedented nature of the conflict and the uncertain environment Kingston has suspended all shipments to Russia.\" https://pikabu.ru/story/kingston_vsyo_9078019",
+        "description": "Posts a plaque on the website with a statement on Ukraine. In light of the unprecedented nature of the conflict and the uncertain environment Kingston has suspended all shipments to Russia. https://pikabu.ru/story/kingston_vsyo_9078019",
         "PURL-link": "",
         "PURL": ""
     },
@@ -1468,7 +1245,7 @@
         "problem_type": "hostile_actions",
         "name": "DuckDuckGo",
         "commit_link": "https://www.republicworld.com/technology-news/apps/russia-ukraine-war-duckduckgo-to-down-rank-sites-associated-with-russian-propaganda-articleshow.html",
-        "description": "Основатель \"приватного\" поисковика DuckDuckGo обещает снижать в выдаче сайты которые дают \"неправильную\" информацию. О чём заявил в твиттере: \"Like so many others I am sickened by Russia’s invasion of Ukraine and the gigantic humanitarian crisis it continues to create. At DuckDuckGo we've been rolling out search updates that down-rank sites associated with Russian disinformation.\" — Gabriel Weinberg (@yegg) March 10 2022",
+        "description": "The founder of the “private” search engine DuckDuckGo promises to reduce the results of sites that give “incorrect” information. Like so many others I am sickened by Russia’s invasion of Ukraine and the gigantic humanitarian crisis it continues to create. At DuckDuckGo we've been rolling out search updates that down-rank sites associated with Russian disinformation. — Gabriel Weinberg (@yegg) March 10 2022",
         "PURL-link": "",
         "PURL": ""
     },
@@ -1528,7 +1305,7 @@
         "problem_type": "hostile_actions",
         "name": "Redminer for Android",
         "commit_link": "https://play.google.com/store/apps/details?id=com.ideil.redmine&hl=ru&gl=US",
-        "description": "Application for access to the project management system Redmine. The app is now working in readonly mode. \" A Lutsk-based author on his website observes Ukrainian flags in large numbers. Russian users are at risk because the application has a key to access your project in Redmine. It is recommended to remove the application and reset the key.",
+        "description": "Application for access to the project management system Redmine. The app is now working in readonly mode. \"\" A Lutsk-based author on his website observes Ukrainian flags in large numbers. Russian users are at risk because the application has a key to access your project in Redmine. It is recommended to remove the application and reset the key.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -1538,7 +1315,7 @@
         "problem_type": "hostile_actions",
         "name": "GitHub Enterprise Server",
         "commit_link": "https://github.com/github/site-policy/pull/556/files",
-        "description": "30 апреля GitHub внёс изменения в политику компании. РФ и РБ внесены в список стран в которых недопускаются продажи GitHub Enterprise Server. Также репозитории платных пользователей из указанных стран могут быть переведены в режим \"только чтение\".",
+        "description": "On April 30, GitHub changed its policy. Russia and Belarus are included in the list of countries in which sales of GitHub Enterprise Server are not allowed. Also, repositories of paid users from these countries can be moved to read-only mode.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -1738,7 +1515,7 @@
         "problem_type": "hostile_actions",
         "name": "VirtualBox",
         "commit_link": "https://virtualbox.org",
-        "description": "При попытке входа в старый российский аккаунт (https://login.oracle.com/mysso/signon.jsp) пишет \"неверный логин/пароль\". При регистрации нового аккаунта через VPN нельзя выбрать Россию.",
+        "description": "When you try to log in to an old Russian account (https://login.oracle.com/mysso/signon.jsp) writes \"incorrect login/password\". When registering a new account through a VPN, you cannot choose Russia.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -1778,7 +1555,7 @@
         "problem_type": "hostile_actions",
         "name": "Grub2Win",
         "commit_link": "https://sourceforge.net/projects/grub2win/files/",
-        "description": "Веб-инсталлятор Grub2Win при попытке установки проверяет локаль и выдаёт сообщение о том что из-за СВО на Украине для России \"лицензия отозвана\". Скриншот: https://image-box.ru/files/2rp46p516m9.jpg Скорее всего это \"зашито\" в серверную часть так как при запуске без интернета сообщения нет а когда пускаешь в сеть - вываливается сообщение. Сообщение явно переведено через переводчик так что это иностранный сочувствующий.",
+        "description": "Web installer Grub2Win when trying to install checks the locale and gives a message that because of the SVO in Ukraine for Russia “license revoked”. Screenshot: https://image-box.ru/files/2rp46p516m9.jpg Most likely it is \"sewn\" in the server part since there is no message when you start without the Internet and when you let the network, the message falls out. The message is clearly translated through a translator, so it's a foreign sympathizer.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -1858,7 +1635,7 @@
         "problem_type": "hostile_actions",
         "name": "WD Marvel repair tool",
         "commit_link": "https://wdmarvel.com",
-        "description": "https://wdmarvel.com/forum/ru/viewtopic.php?f=3&t=2483\nзаблокировали все купленные лицензии антироссийкая позиция",
+        "description": "https://wdmarvel.com/forum/en/viewtopic.php?f=3&t=2483\nblocked all purchased licenses anti-russian position",
         "PURL-link": "",
         "PURL": ""
     },
@@ -1928,7 +1705,7 @@
         "problem_type": "hostile_actions",
         "name": "OkHttp Profiler",
         "commit_link": "https://plugins.jetbrains.com/plugin/11249-okhttp-profiler",
-        "description": "Plugin OkHttp Profiler\" for Android Studio https://plugins.jetbrains.com/plugin/11249-okhttp-profiler (there is a screenshot in the comments) Outputs swearing Russian and shows the buttons \"Russia Invided Ukraine!\" Repository: https://github.com/gektor650/OkHttpProfiler-AndroidStudio-Plugin\"",
+        "description": "Plugin \"OkHttp Profiler\" for Android Studio https://plugins.jetbrains.com/plugin/11249-okhttp-profiler (there is a screenshot in the comments) Outputs swearing Russian and shows the buttons \"Russia Invided Ukraine!\" Repository: https://github.com/gektor650/OkHttpProfiler-AndroidStudio-Plugin",
         "PURL-link": "",
         "PURL": ""
     },
@@ -1968,7 +1745,7 @@
         "problem_type": "hostile_actions",
         "name": "Hogwarts Legacy",
         "commit_link": "https://www.hogwartslegacy.com/",
-        "description": "There is no Russian language in the presence of Ukrainian. There is no way to buy just piracy. The product\" itself has a Russian translation. https://imgbox.com/MjrumW8o\"",
+        "description": "There is no Russian language in the presence of Ukrainian. There is no way to buy just piracy. The \"product\" itself has a Russian translation. https://imgbox.com/MjrumW8o",
         "PURL-link": "",
         "PURL": ""
     },
@@ -1978,7 +1755,7 @@
         "problem_type": "hostile_actions",
         "name": "Yohoho",
         "commit_link": "https://yohoho.cc/",
-        "description": "Сайт для просмотра фильмов и сериалов (по коду фильма с кинопоиска). Предлагает перед просмотром внести пожертвование. При переходе на пожертвование предлагает \"пiдтримать до ВСУ\". Фактически блокируют просмотр если не пожертвовать.",
+        "description": "Website for watching movies and TV series (according to the code of the film from the movie search). He offers to make a donation before viewing. When switching to donation, he proposes to “push to the APU”. They actually block viewing if you don’t donate.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -2018,7 +1795,7 @@
         "problem_type": "ip_block",
         "name": "Grafana",
         "commit_link": "https://dl.grafana.com/enterprise/release/grafana-enterprise-8.4.4.windows-amd64.msi",
-        "description": "При попытке скачать бинарники Grafa появляется ошибка \"Sorry our service is currently not available in your region\"",
+        "description": "When you try to download Grafa binaries, the error appears \"Sorry our service is currently not available in your region.\"",
         "PURL-link": "",
         "PURL": ""
     },
@@ -2058,19 +1835,9 @@
         "problem_type": "ip_block",
         "name": "Elasticsearch",
         "commit_link": "https://docker.elastic.co/elasticsearch/elasticsearch",
-        "description": "Образ не грузится с российского IP. Команда для проверки docker pull docker.elastic.co/elasticsearch/elasticsearch:7.8.1 . См https://ibb.co/kDvN1q3\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Доступ к веб сайту https://www.elastic.co/ есть но скачать ничего нельзя. Оставили доступ только к www без www выдает ошибку 403. Компания прекратила продажи в РФ.\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "The image is not loaded from Russian IP. A command to check for docker pull docker.elastic.co/elasticsearch/elasticsearch:7.8.1 See https:// ibb.co/kDvN1q3\nAccess to the website https://www.elastic.co/ is available but nothing can be downloaded. Only access to www is allowed without a 403 error. The company stopped selling in Russia.",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "63",
@@ -2088,7 +1855,7 @@
         "problem_type": "ip_block",
         "name": "Redis",
         "commit_link": "https://redis.io/",
-        "description": "При попытке открыть сайт с IP из России появляется ошибка доступа под предлогом \"This request was blocked by the security rules\". Заблокирован доступ к документации и сайту.",
+        "description": "When you try to open a site with an IP from Russia, an access error appears under the pretext \"This request was blocked by the security rules.\" Access to documentation and website is blocked.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -2118,29 +1885,9 @@
         "problem_type": "ip_block",
         "name": "ClamAV",
         "commit_link": "https://www.clamav.net/",
-        "description": "Доступ до серверов обновлений ClamAV заблокирован из России.\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Доступ к CDN ресурсам ClamAV закрыт для российских IP (решение Cisco). Freshclam не работает. Issue.",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "https://github.com/Cisco-Talos/clamav/issues/500\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "Access to ClamAV update servers is blocked from Russia.\nAccess to CDN resources ClamAV is closed for Russian IP (Cisco solution). Freshclam's not working. Issue.\nhttps://github.com/Cisco-Talos/clamav/issues/500",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "68",
@@ -2298,59 +2045,9 @@
         "problem_type": "ip_block",
         "name": "namecheap.com nc.me web-hosting.com",
         "commit_link": "https://www.namecheap.com/",
-        "description": "Изначально обещали удалить все домены зарегистрированные россиянами а также приостановить хостинг и почту для доменов в белорусских и российских зонах. Позже сделали исключение для оппозиционных СМИ но пообещали:\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "* блокировать платежи с российских карт и с российскими почтовыми адресами",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "* в саппорте не отвечать на тикеты от пользователей с российскими почтовыми адресами",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "* забанить хостинг и почту для доменов *.ru* *.xn--p1ai (рф)* *.by* *.xn--90ais (бел)* *.su*",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "* в саппорте не отвечать на тикеты от пользователей которые заходили с российских IP.",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Кроме того основатель компании Richard Kirkendall в Twitter успеть опубликовать пару антироссийских лозунгов а саппорт компании противоречит самому себе в твиттере и по электронной почте. Стоит отметить что хотя полностью домены не удалили это решение привело к финансовым потерям простых клиентов так как всем нам придётся менять хостинг и регистратора ведь даже при желании пользоваться Namecheap в дальнейшем не удастся оплачивать услуги.\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "Initially, they promised to remove all domains registered by Russians and suspend hosting and mail for domains in the Belarusian and Russian zones. They later made an exception for opposition media, but promised:\nBlock payments from Russian cards and with Russian postal addresses\n* Do not respond to tickets from users with Russian postal addresses\n* ban hosting and mail for domains *.ru* *.xn--p1ai (rf)* *.by* *.xn--90ais (bel)* *.su*\n* Do not respond to tickets from users who came from Russian IP.\n\nIn addition, the founder of the company Richard Kirkendall on Twitter time to publish a couple of anti-Russian slogans and the company’s support contradicts itself in Twitter and email. It is worth noting that although the domains did not completely remove this decision led to financial losses for ordinary customers, since all of us will have to change the hosting and registrar because even if you want to use Namecheap in the future will not be able to pay for services.",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "293",
@@ -2368,7 +2065,7 @@
         "problem_type": "ip_block",
         "name": "GnuDB",
         "commit_link": "https://gnudb.org/",
-        "description": "При подключении с российского IP перенаправляют на заглушку https://ru.gnudb.org/ где только украинский флаг и надпись \"GnuDB is closed for Russia in sympathy with the Ukrainian people.\" Через VPN gnudb.org открывается нормально.",
+        "description": "When connecting from Russian IP, redirect to the plug https://en.gnudb.org/ where only the Ukrainian flag and the inscription \"GnuDB is closed for Russia in sympathy with the Ukrainian people.\" Through VPN, gnudb.org opens normally.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -2398,7 +2095,7 @@
         "problem_type": "ip_block",
         "name": "Mouser Electronics Ru",
         "commit_link": "https://ru.mouser.com",
-        "description": "Отображается \"В Настоящее Время Данный Веб-Сайт Закрыт.\" eu.mouser.com пока работает.",
+        "description": "It displays \"This Web Site is currently closed.\" eu.mouser.com is still running.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -2428,7 +2125,7 @@
         "problem_type": "ip_block",
         "name": "BDD Cucumber",
         "commit_link": "https://cucumber.io/",
-        "description": "Популярный фреймворк тестирования в BDD. Отвечает 403. \"The Amazon CloudFront distribution is configured to block access from your country\"",
+        "description": "A popular testing framework in BDD. Answers 403. The Amazon CloudFront distribution is configured to block access from your country",
         "PURL-link": "",
         "PURL": ""
     },
@@ -2468,7 +2165,7 @@
         "problem_type": "ip_block",
         "name": "We looked",
         "commit_link": "https://posmotre.li",
-        "description": "Называли себя \"свободной энциклопедией\" в статье про опен сорс (правда с припиской что не свободны от рекламы). Сперва собирали помощь \"жертвам политических репрессий в РФ и РБ\" на главной а с началом известных действий на Украине закрыли всем доступ \"д",
+        "description": "Called themselves a \"free encyclopedia\" in an article about open sours (although with a note that they are not free from advertising). First, they collected assistance to “victims of political repressions in Russia and Belarus” on the main one, and with the beginning of known actions in Ukraine, everyone was closed access",
         "PURL-link": "",
         "PURL": ""
     },
@@ -2478,7 +2175,7 @@
         "problem_type": "ip_block",
         "name": "bash.im",
         "commit_link": "https://bash.im",
-        "description": "С начала операции сайт выдает только \"НЕТ ВОЙНЕ\"3.29.2022 16:47:12",
+        "description": "Since the beginning of the operation, the site gives only \"NO WAR\" 3.29.2022 16:47:12",
         "PURL-link": "",
         "PURL": ""
     },
@@ -2528,7 +2225,7 @@
         "problem_type": "ip_block",
         "name": "A Cloud Guru",
         "commit_link": "https://acloudguru.com/",
-        "description": "Портал с обучением по IT тематике. Сам портал доступен но при попытке авторизации в личный кабинет с российского IP пишут \"SORRY THIS SITE IS NOT AVAILABLE IN YOUR AREA.\" Техподдержка подтвердила блокировку но если зайти через европейский VPN то все ра",
+        "description": "Portal with training on IT topics. The portal itself is available but when you try to log into your personal account from the Russian IP write \"SORRY THIS SITE IS NOT AVAILABLE IN YOUR AREA\". Technical support has confirmed the blocking, but if you go through a European VPN, all",
         "PURL-link": "",
         "PURL": ""
     },
@@ -2608,7 +2305,7 @@
         "problem_type": "ip_block",
         "name": "Weather.com",
         "commit_link": "https://weather.com/",
-        "description": "Заблокирован доступ из России - возвращает \"Bad Request - Blocked\"",
+        "description": "Blocked access from Russia - returns \"Bad Request - Blocked\"",
         "PURL-link": "",
         "PURL": ""
     },
@@ -2648,7 +2345,7 @@
         "problem_type": "ip_block",
         "name": "Octopus RBL Monster",
         "commit_link": "https://octopusdns.com/",
-        "description": "Сервис предоставлял черные списки спаммеров. IP адреса блокируются с сообщением: \"sanction against Belarus\"",
+        "description": "The service provided blacklists of spammers. IP addresses are blocked with the message: \"Sanction against Belarus\"",
         "PURL-link": "",
         "PURL": ""
     },
@@ -2658,7 +2355,7 @@
         "problem_type": "ip_block",
         "name": "Polspam RHSBL",
         "commit_link": "https://polspam.pl/",
-        "description": "Сервис предоставлял черные списки спаммеров. DNS имена блокируются с сообщением \"Русский домен\"/\"Беларускі дамен\"",
+        "description": "The service provided blacklists of spammers. DNS names are blocked with the message \"Russian Domain\" / \"Belarusian Damen\"",
         "PURL-link": "",
         "PURL": ""
     },
@@ -2768,7 +2465,7 @@
         "problem_type": "ip_block",
         "name": "MinGW Minimalist gnu for winfows",
         "commit_link": "http://www.mingw.org/",
-        "description": "Заблокировали для стран РФ. Перебрасывает на страницу с сообщением о блокировке \"Country not allowed\"",
+        "description": "Blocked for the Russian Federation. Blocking the page with the message \"Country not allowed\"",
         "PURL-link": "",
         "PURL": ""
     },
@@ -2788,7 +2485,7 @@
         "problem_type": "ip_block",
         "name": "Terraform",
         "commit_link": "https://app.terraform.io/",
-        "description": "Сообщение: \"This content is not currently available in your region.\" Не дают скачать бинарники также нет доступа к репам с модулями. Всё остальное от HashiCorp так же недоступно.",
+        "description": "This content is not currently available in your region. Do not let download binaries also do not have access to turnips with modules. Everything else from HashiCorp is also unavailable.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -2878,7 +2575,7 @@
         "problem_type": "ip_block",
         "name": "Apiary",
         "commit_link": "https://apiary.io/",
-        "description": "Сервис для проектирования \\ документирования API. Заблокирован доступ из РФ по IP.",
+        "description": "A service for designing and documenting APIs. Access from Russia via IP has been blocked.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -2898,7 +2595,7 @@
         "problem_type": "ip_block",
         "name": "Heroku",
         "commit_link": "https://heroku.com/",
-        "description": "При попытке войти в аккаунт с Российского IP ошибка. При попытке создать новый аккаунт c любой страной сообщение: \"We do not aceept sign-ups from your country\" (проверяют по IP)",
+        "description": "When you try to log into your account from the Russian IP error. When you try to create a new account in any country, the message: \"We do not aceept sign-ups from your country\"",
         "PURL-link": "",
         "PURL": ""
     },
@@ -3058,39 +2755,9 @@
         "problem_type": "ip_block",
         "name": "SANS Internet Storm Center",
         "commit_link": "https://isc.sans.edu/",
-        "description": "Сайт по кибербезопасности. https://sans.edu/ недоступен со всем поддоменами включая https://isc.sans.edu/ начал писать такое\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Russian cyber operations have targeted Ukraine with destabilization efforts for years by way of infrastructure attacks influence operations website defacement and attacks on Ukrainian banks and military networks.",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "All organizations find themselves potential targets for cyber attacks as Russia responds to sanctions imposed on Russia for violating international law. According to the governments and intelligence agencies from around the world “Russia maintains a range of offensive cyber tools that it could employ against global networks—from low-level denials-of-service to destructive attacks targeting critical infrastructure.”",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "https://www.sans.org/webcasts/russian-cyber-attack-escalation-in-ukraine/\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "Cybersecurity site. https://sans.edu/ Unavailable with all subdomains including https://isc.sans.edu/ started writing such\nRussian cyber operations have targeted Ukraine with destabilization efforts for years by way of infrastructure attacks influence operations website defacement and attacks on Ukrainian banks and military networks.\n\nAll organizations find themselves potential targets for cyber attacks as Russia responds to sanctions imposed on Russia for violating international law. According to the governments and intelligence agencies from around the world “Russia maintains a range of offensive cyber tools that it could employ against global networks — from low-level denials-of-service to destructive attacks targeting critical infrastructure. \"\nhttps://www.sans.org/webcasts/Russian-cyber-attack-escalation-in-ukraine/",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "541",
@@ -3178,7 +2845,7 @@
         "problem_type": "ip_block",
         "name": "Syncthing",
         "commit_link": "https://syncthing.net",
-        "description": "File synchronization program. Could not connect to apt.syncthing.net:443 (82.196.13.137) connection timed out\nДобавили баннер на главной странице\nЧерез VPN работает.",
+        "description": "File synchronization program. Could not connect to apt.syncthing.net:443 (82.196.13.137) connection timed out\nAdded a banner on the main page\nThe VPN works.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -3188,7 +2855,7 @@
         "problem_type": "ip_block",
         "name": "Kerkythea",
         "commit_link": "http://kerkythea.net/",
-        "description": "Kerkythea — бесплатная проприетарная программа с закрытым кодом система рендеринга позволяющая создавать фотореалистичные изображения. При заходе на сайт пишет: \"Thank you for your interest in an Altair Engineering Inc. Product. We regret that at this time access to our website is restricted under United States and other governments export rules and regulations.\".",
+        "description": "Kerkythea is a free proprietary program with a closed-code rendering system that allows you to create photorealistic images. Thank you for your interest in an Altair Engineering Inc. Product. We regret that at this time access to our website is restricted under United States and other governments export rules and regulations.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -3198,19 +2865,9 @@
         "problem_type": "ip_block",
         "name": "UserSide",
         "commit_link": "https://www.userside.eu/ru/",
-        "description": "Софт для оператора связи. Заблочили учётки российских клиентов - при попытке логина на my.userside.eu - ошибка 422 The account is blocked.\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Есть неподтвержденная информация что техподдержка UserSide использовала свой доступ для вредоносных действий в системе своих клиентов. https://t.me/s/userside/56\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "Software for the operator. The login on my.userside.eu is blocked by error 422 The account is blocked.\nThere is unconfirmed information that userside support used its access for malicious actions in the system of its customers. https://t.me/s/userside/56",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "561",
@@ -3248,19 +2905,9 @@
         "problem_type": "ip_block",
         "name": "cgtrader.com",
         "commit_link": "https://www.cgtrader.com",
-        "description": "не даёт качать объекты с российского IP с VPN даёт.\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "SERVICE NOT AVAILABLE. DUE TO LEGAL ISSUES OUR SERVICES ARE NOT AVAILABLE IN YOUR REGION.\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "it does not allow downloading objects from Russian IP with VPN gives.\nService Not AVAILABLE. DUE TO LEGAL ISSUES OUR SERVICES ARE NOT AVAILABLE IN YOUR REGION.",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "568",
@@ -3348,19 +2995,9 @@
         "problem_type": "ip_block",
         "name": "ANSYS",
         "commit_link": "https://www.ansys.com/academic/students",
-        "description": "Блокировка всего студенческого софта от ANSYS\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Через впн - доступно\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "Blocking all student software from ANSYS\nThrough VPN - available",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "592",
@@ -3478,29 +3115,9 @@
         "problem_type": "ip_block",
         "name": "QCAD",
         "commit_link": "https://qcad.org/en/",
-        "description": "\"The Open Source CAD System For Everyone\". Видимо мы в \"everyone\" больше не входим.\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Так же заблокирован доступ к сайту производителя (RibbonSoft GmbH):",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "https://www.ribbonsoft.com\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "The Open Source CAD System for Everyone. I guess we're not in \"everyone\" anymore.\nAccess to the manufacturer’s website (RibbonSoft GmbH) is also blocked:\nhttps:/ /www.ribbonsoft.com",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "635",
@@ -3508,19 +3125,9 @@
         "problem_type": "ip_block",
         "name": "Disc Makers",
         "commit_link": "https://discmakers.com",
-        "description": "О компании: Компания специализирующаяся по разработке и выпуску физических релизов для независимых музыкантов. Для рядового пользователя может быть примечательным за образцы обложек для упаковок различных музыкальных носителей (футляры для CD и DVD наклейки для аудио-кассет).\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Блокировка: Блокировка доступа пользователям из России и Беларуси через Cloudflare (ошибка 1020). Без проблем обходится с помощью VPN.\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "A company specializing in the development and release of physical releases for independent musicians. For the average user, it can be remarkable for samples of covers for packaging of various music media (CD cases and DVD stickers for audio cassettes).\n\nBlocking: Blocking access to users from Russia and Belarus via Cloudflare (Error 1020). No problem with using a VPN.",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "641",
@@ -3528,7 +3135,7 @@
         "problem_type": "ip_block",
         "name": "Underline Js",
         "commit_link": "http://underlinejs.org/",
-        "description": "библиотека для создания подчёркиваний на JS. При переходе на страницу проекта пишет: \"country not allowed\"",
+        "description": "a library for creating accents on JS. When you go to the project page, you write: “country is not allowed.”",
         "PURL-link": "",
         "PURL": ""
     },
@@ -3588,19 +3195,9 @@
         "problem_type": "ip_block",
         "name": "metafields.guru",
         "commit_link": "https://app.metafields.guru",
-        "description": "Приложение metafields.guru на сайте shopify.com не работает с российских адресов.\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Применяется геоблок на уровне DNS для России выдает 127.0.0.1 для домена app.metafields.guru\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "The metafields.guru app on shopify.com does not work from Russian addresses.\nApplied geoblock at the DNS level for Russia issues 127.0.0.1 for the domain app.metafields.guru",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "661",
@@ -3628,7 +3225,7 @@
         "problem_type": "ip_block",
         "name": "letitbit",
         "commit_link": "http://letitbit.net/",
-        "description": "Файлообменник. При обращении с российского IP сообщение \"Country not allowed\"",
+        "description": "File sharing. When using Russian IP message \"Country not allowed\"",
         "PURL-link": "",
         "PURL": ""
     },
@@ -3738,19 +3335,9 @@
         "problem_type": "ip_block",
         "name": "Miro",
         "commit_link": "https://miro.com/blog/update-from-miro-team/",
-        "description": "Закрыли офис в РФ; Прекращение всех продаж в РФ и РБ; Приостановка действия лицензий россиян. Бесплатное продление подписок для украинцев.\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "https://miro.com/blog/letter-from-miro-support-for-ukraine/\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "Closed the office in Russia; Termination of all sales in Russia and RB; Suspension of Russian licenses. Free renewal of subscriptions for Ukrainians.\nhttps:/ /miro.com/blog/letter-from-miro-support-for-ukraine/",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "701",
@@ -3768,19 +3355,9 @@
         "problem_type": "ip_block",
         "name": "Ajax Systems",
         "commit_link": "https://ajax.systems/ru-ua/blog/ajax-charity/",
-        "description": "Охранные системы. Прекратили обслуживать клиентов из РФ. Сбор денег на ВСУ на сайте.\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "https://pikabu.ru/story/ajax_v_rossii_i_respublike_belarus__vsyo_9703507\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "Security systems. They stopped serving Russian customers. Raising money on the website.\nhttps://pikabu.ru/story/ajax_v_rossii_i_respublike_belarus_vsyo_9703507",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "703",
@@ -3828,19 +3405,9 @@
         "problem_type": "ip_block",
         "name": "Carnets – Jupyter",
         "commit_link": "https://holzschu.github.io/Carnets_Jupyter/",
-        "description": "Удалили приложение из российского App Store без объяснения причин.\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Тестовые версии по прежнему доступны через Test Flight – https://testflight.apple.com/join/yevwlUs1\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "Removed the application from the Russian App Store without explanation.\nTest versions are still available via Test Flight – https://testflight.apple.com/join/yevwlUs1",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "708",
@@ -3848,19 +3415,9 @@
         "problem_type": "ip_block",
         "name": "Illusory",
         "commit_link": "https://apps.apple.com/us/app/id1428745381",
-        "description": "Заблокировали в российском App Store без объяснения причин. В блоге информации нет\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "https://www.2zgroup.net/\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "Blocked in the Russian App Store without explanation. No information on the blog.\nhttps:/ /www.2zgroup.net/",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "709",
@@ -3878,49 +3435,9 @@
         "problem_type": "ip_block",
         "name": "Blackmagic Design",
         "commit_link": "https://www.blackmagicdesign.com",
-        "description": "Полностью снесли русскоязнычную часть сайта. При попытке зайти – сбрасывает в англоязычную версию.\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Выкинули пункт ресселеров в России на странице продуктов.",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "https://web.archive.org/web/20220306215950/https://www.blackmagicdesign.com/ru",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "https://www.blackmagicdesign.com/ru",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "https://imgbox.com/wsT2Fk3T\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "Completely demolished the Russian-speaking part of the site. When you try to enter, it is dropped into the English version.\nDiscarded item resellers in Russia on the product page.\nhttps://web.archive.org/web/20220306215950/https://www.blackmagicdesign.com/en\nhttps:/ /www.blackmagicdesign.com/en\nhttps:/ /imgbox.com/wsT2Fk3T",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "711",
@@ -3958,29 +3475,9 @@
         "problem_type": "ip_block",
         "name": "Corel",
         "commit_link": "https://www.corel.com/ru/",
-        "description": "прекратили продажи в РФ и РБ.\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Снесли русскоязычную страницу теперь перекидывает на англ. версию:",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "https://web.archive.org/web/20220105030431/https://www.corel.com/ru/\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "stopped selling in Russia and RB.\nDestroyed the Russian-language page now throws to the English version:\nhttps://web.archive.org/web/20220105030431/https://www.corel.com/en/",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "715",
@@ -4018,29 +3515,9 @@
         "problem_type": "ip_block",
         "name": "github marketplace",
         "commit_link": "https://github.com/marketplace",
-        "description": "Попытка купить или подписаться на бесплатный сервис или план:\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "After reviewing we have determined that your account is ineligible for GitHub purchases due to restrictions under U.S. economic sanctions. For this reason you will not be able to proceed with your GitHub transaction.",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "If you disagree with this decision or want to learn more please go to https://docs.github.com/en/github/site-policy/github-and-trade-controls.\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "Attempting to buy or subscribe to a free service or plan:\nAfter reviewing we have determined that your account is ineligible for GitHub purchases due to restrictions under U.S. economic sanctions. For this reason, you will not be able to proceed with your GitHub transaction.\nIf you disagree with this decision or want to learn more please go to https://docs.github.com/en/github/site-policy/github-and-trade-controls.",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "734",
@@ -4078,7 +3555,7 @@
         "problem_type": "ip_block",
         "name": "skillsetter",
         "commit_link": "https://skillsetter.io/",
-        "description": "Before the SVO, they were trained in product and design professions, but since the creators from Ukraine slowly transferred resources to Ukrainian and recently block from RU IP Sorry you have been blocked\";\"",
+        "description": "Before the SVO, they were trained in product and design professions, but since the creators from Ukraine slowly transferred resources to Ukrainian and recently block from RU IP \"Sorry you have been blocked\";",
         "PURL-link": "",
         "PURL": ""
     },
@@ -4188,7 +3665,7 @@
         "problem_type": "ip_block",
         "name": "SetApp",
         "commit_link": "https://setapp.com",
-        "description": "Подписочный сервис от украинских разработчиков с каталогом софта для macOS. Прекратили работу сервиса и заблокировали сайт в Беларуси и России для всех остальных в программе висит баннер с ссылками на помощь ВСУ (судя по скриншоту с страницы-загулшки). Иронично что блокировка так же блочит запись в блоге разработчиков с \"правдой\" от \"проверенных\" источников на которую ссылается страница-заглушка.",
+        "description": "Subscription service from Ukrainian developers with a catalog of software for macOS. The service stopped working and blocked the site in Belarus and Russia for everyone else in the program hangs a banner with links to the help of the APU (judging by the screenshot from the page-tub). Ironically, the blocking also blocks a developer blog post with the “truth” from “verified” sources that the stub page links to.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -4198,7 +3675,7 @@
         "problem_type": "ip_block",
         "name": "gcore",
         "commit_link": "https://gcore.com/",
-        "description": "Удаляют сервера и аккаунты русских пользователей с формулировкой \"За захват Украины\"",
+        "description": "Delete servers and accounts of Russian users with the wording “For the capture of Ukraine”",
         "PURL-link": "",
         "PURL": ""
     },
@@ -4458,7 +3935,7 @@
         "problem_type": "political_slogans",
         "name": "Personal website of Stolyarov A.V. stolyarov.info",
         "commit_link": "http://stolyarov.info/",
-        "description": "Через пару дней после начала спецоперации сменил весь сайт на надпись \"КОГДА ПУШКИ ГОВОРЯТ МУЗЫ МОЛЧАТ\" со ссылкой на страницу с книгами (на чём спасибо) функционирование остального сайта в данных обстоятельствах счёл неуместным.",
+        "description": "A couple of days after the start of the special operation, he changed the entire site to the inscription “When the guns speak the muses are silent” with a link to the page with books (thank you), the functioning of the rest of the site in these circumstances was considered inappropriate.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -4588,7 +4065,7 @@
         "problem_type": "political_slogans",
         "name": "Composer",
         "commit_link": "https://github.com/composer/packagist/commit/86244a3695fcaaac9c5ba4257a4314eae1c6d981",
-        "description": "Выводит текст: \"Info from https://repo.packagist.org: #StandWithUkraine\"",
+        "description": "Info from https://repo.packagist.org: #StandWithUkraine",
         "PURL-link": "",
         "PURL": ""
     },
@@ -4638,7 +4115,7 @@
         "problem_type": "political_slogans",
         "name": "piccy.info",
         "commit_link": "https://piccy.info/",
-        "description": "Сообщение \"\"\"Сайт не работает потому что\" Россия напала на нас и начинает уничтожать \"мирное население\"\"\"",
+        "description": "The site is not working because Russia attacked us and begins to destroy the \"civilian population\"",
         "PURL-link": "",
         "PURL": ""
     },
@@ -4648,7 +4125,7 @@
         "problem_type": "political_slogans",
         "name": "UpdatePack7R2",
         "commit_link": "https://blog.simplix.info/",
-        "description": "Нет пуша. В сборке от 11.03 при работе в системе с заданными TZ из России или Беларуси выбивает окно \"ваша страна поддерживает войну...\" и работа завершается.",
+        "description": "No fluff. In the build from 11.03 when working in the system with the given TZ from Russia or Belarus knocks out the window \"your country supports the war...\" and the work is completed.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -4688,7 +4165,7 @@
         "problem_type": "political_slogans",
         "name": "Yad",
         "commit_link": "https://github.com/v1cont/yad/commit/e38f7fa71aa9b2dff408ae14ca7133e4fdc4b02a",
-        "description": "Вырезание русского языка \"DROP K HUJAM russian translation\" (https://github.com/v1cont/yad/commit/f14f5fc497827871e314c5c7b68d12a4de827d46); Автор - Украинец который находится в резерве сил территориальной обороны (https://github.com/v1cont/yad/issues/10",
+        "description": "Russian cutting \"DROP K HUJAM russian translation\" (https://github.com/v1cont/yad/commit/f14f5fc497827871e314c5c7b68d12a4de827d46); Author - Ukrainian who is in the reserve of the territorial defense forces (https://github.com/v1cont/yad/issues/10)",
         "PURL-link": "",
         "PURL": ""
     },
@@ -4888,7 +4365,7 @@
         "problem_type": "political_slogans",
         "name": "Isomorphic Authorization JavaScript library",
         "commit_link": "https://github.com/stalniy/casl/commit/b13c3de252b8412079b4030ff73309d65713c8d2",
-        "description": "Политический баннер \"Stop war in Ukraine. All truth about Russia invasion\"",
+        "description": "Stop War in Ukraine: All Truth About Russia Invasion",
         "PURL-link": "",
         "PURL": ""
     },
@@ -4928,7 +4405,7 @@
         "problem_type": "political_slogans",
         "name": "Diptrace",
         "commit_link": "",
-        "description": "После встречи \"пуша в репе\" никакого желания что -либо дальше делать нет общаться с тупой школотой - ну нафиг.",
+        "description": "After the meeting \"push in turnips\" no desire to do anything further there is no communication with a stupid schoolboy - well, whatever.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -4948,7 +4425,7 @@
         "problem_type": "political_slogans",
         "name": "LeafletJs",
         "commit_link": "https://leafletjs.com/",
-        "description": "На главной странице теперь полит-лозунги с предложением положить \"семена в корман\" если поддерживаешь РФ. Также ко всем ссылкам в документации добавили лозунг \"SlavaUkraini\" пример: https://leafletjs.com/SlavaUkraini/reference.html",
+        "description": "On the main page now political slogans with a proposal to put \"seeds in the corman\" if you support the Russian Federation. Also to all references in the documentation was added the slogan \"SlavaUkraini\" example: https://leafletjs.com/SlavaUkraini/reference.html",
         "PURL-link": "",
         "PURL": ""
     },
@@ -5228,19 +4705,9 @@
         "problem_type": "political_slogans",
         "name": "Evolution CMS",
         "commit_link": "https://github.com/evolution-cms/evolution/commit/1c586bc76f739264dcf0482530945875fa444b77",
-        "description": "Есть форк без пропаганды: https://github.com/evocms-community/evolution\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "После обновления на релизы Evolution CMS 3.1.10 и Evolution CMS 1.4.17 полит. лозунг в админке.\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "There's a fork without propaganda: https://github.com/evocms-community/evolution\nAfter updating to releases Evolution CMS 3.1.10 and Evolution CMS 1.4.17 political slogan in the admin.",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "192",
@@ -5248,7 +4715,7 @@
         "problem_type": "political_slogans",
         "name": "kubernetes-sigs/kind",
         "commit_link": "https://github.com/kubernetes-sigs/kind/pull/2666",
-        "description": "На сайт https://kind.sigs.k8s.io/ добавлен баннер с флагом и ссылка \"Help Provide Humanitarian Aid for Ukraine\". Стоит следить за новыми коммитами на всякий случай",
+        "description": "Https://kind.sigs.k8s.io/ added a banner with a flag and a link \"Help Provide Humanitarian Aid for Ukraine\". Keep an eye out for new commissions just in case",
         "PURL-link": "",
         "PURL": ""
     },
@@ -5258,7 +4725,7 @@
         "problem_type": "political_slogans",
         "name": "Dotnet Foundation",
         "commit_link": "https://github.com/dotnet-foundation/website/commit/72ddd84dd8c1b68489d870e467cc584752af8049",
-        "description": "Баннер \"We Stand with Ukraine\"",
+        "description": "Banner \"We Stand with Ukraine\"",
         "PURL-link": "",
         "PURL": ""
     },
@@ -5278,7 +4745,7 @@
         "problem_type": "political_slogans",
         "name": "Figma",
         "commit_link": "https://forum.figma.com/t/ukrainian-people-are-dying-close-figma-in-russia/15263/3",
-        "description": "Figma решила заморозить корпоративные аккаунты российских клиентов. Личные пока не трогают. (источник: см. \"Ссылка на пуш в репе\" https://vk.com/wall-30666517_1781721)",
+        "description": "Figma has decided to freeze corporate accounts of Russian customers. No personal touch yet. (Source: see \"Reference to fluff in turnips\" https:/ / vk.com/wall-30666517_1781721)",
         "PURL-link": "",
         "PURL": ""
     },
@@ -5428,7 +4895,7 @@
         "problem_type": "political_slogans",
         "name": "k01ek/notowar",
         "commit_link": "https://github.com/k01ek/notowar",
-        "description": "Примеры программ на разных языках программированиях выводящие текст \"No to war\"",
+        "description": "Examples of programs in different programming languages with \"No to War\"",
         "PURL-link": "",
         "PURL": ""
     },
@@ -5528,7 +4995,7 @@
         "problem_type": "political_slogans",
         "name": "ReactJS",
         "commit_link": "https://github.com/facebook/react/pull/23375/commits/11e414ce6c67dc6c3c7e8cf4146af5c39c9c93ea",
-        "description": "В документации полит. лозунг \"STOP RUSSIA'S INVASION OF UKRAINE\" https://ru.reactjs.org",
+        "description": "The political slogan \"STOP RUSSIA'S INVASION OF UKRAINE\" https://en.reactjs.org",
         "PURL-link": "",
         "PURL": ""
     },
@@ -5538,7 +5005,7 @@
         "problem_type": "political_slogans",
         "name": "EmotionJS",
         "commit_link": "https://github.com/emotion-js/emotion/pull/2668",
-        "description": "В документации полит. лозунг \"STOP RUSSIA'S INVASION OF UKRAINE\" https://emotion.sh/docs/introduction",
+        "description": "\"STOP RUSSIA'S INVASION OF UKRAINE\" https://emotion.sh/docs/introduction",
         "PURL-link": "",
         "PURL": ""
     },
@@ -5548,7 +5015,7 @@
         "problem_type": "political_slogans",
         "name": "MUI (Material UI)",
         "commit_link": "https://github.com/mui/material-ui/pull/31275",
-        "description": "В документации полит. лозунг \"STOP RUSSIA'S INVASION OF UKRAINE\" https://mui.com/getting-started/installation/",
+        "description": "\"STOP RUSSIA'S INVASION OF UKRAINE\" https://mui.com/getting-started/installation/",
         "PURL-link": "",
         "PURL": ""
     },
@@ -5668,12 +5135,9 @@
         "problem_type": "political_slogans",
         "name": "11ty/11ty-website",
         "commit_link": "https://github.com/11ty/11ty-website/commit/544e54a62947c41381d0e9b59891dfe4dd9f3de6",
-        "description": "^ Stand with Ukraine ???\" Previously",
-        "PURL-link": " there was a reference to donations for Ukraine\"",
-        "PURL": "",
-        "null": [
-            ""
-        ]
+        "description": "^ \"Stand with Ukraine ???\" Previously, there was a reference to donations for Ukraine",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "248",
@@ -5751,7 +5215,7 @@
         "problem_type": "political_slogans",
         "name": "Codeception for PHP",
         "commit_link": "https://github.com/Codeception/Codeception/commit/eefe1abc60500c0516b85131cbbfbb9a22899db4",
-        "description": "при запуске в консоли выводится \"Codeception PHP Testing Framework v4.1.31 https://helpukrainewin.org\"",
+        "description": "when launched, the console outputs \"Codeception PHP Testing Framework v4.1.31 https://helpukrainewin.org\"",
         "PURL-link": "",
         "PURL": ""
     },
@@ -5801,7 +5265,7 @@
         "problem_type": "political_slogans",
         "name": "The unarchiver.app",
         "commit_link": "https://macpaw.com/news/macpaw-amidst-aggression",
-        "description": "Additional window with the button Learn the truth about what is happening in Ukraine\".\"",
+        "description": "Additional window with the button \"Learn the truth about what is happening in Ukraine\".",
         "PURL-link": "",
         "PURL": ""
     },
@@ -5861,7 +5325,7 @@
         "problem_type": "political_slogans",
         "name": "YoutubeDownloader",
         "commit_link": "https://github.com/Tyrrrz/YoutubeDownloader",
-        "description": "Дал ссылку на репо там везде призывы к поддержке х-слов ну и в самой программе при запуске всплывает плашка о поддержке т.н. \"Украины\"",
+        "description": "I gave a link to repo everywhere there are calls for the support of x-words well, and in the program itself at launch pops up a plaque about the support of the so-called. \"Ukraine\"",
         "PURL-link": "",
         "PURL": ""
     },
@@ -5881,7 +5345,7 @@
         "problem_type": "political_slogans",
         "name": "docs.nestjs.com",
         "commit_link": "https://github.com/nestjs/docs.nestjs.com/commit/a411b74d114a1342170334e84e426b3259c3872c",
-        "description": "В документации полит. лозунг \"STOP RUSSIA'S INVASION OF UKRAINE\"",
+        "description": "The political slogan “STOP RUSSIA’S INVASION OF UKRAINE”",
         "PURL-link": "",
         "PURL": ""
     },
@@ -5931,7 +5395,7 @@
         "problem_type": "political_slogans",
         "name": "AWS Terraform modules",
         "commit_link": "https://github.com/terraform-aws-modules",
-        "description": "все модули AWS для Terraform поддерживаемые сообществом также сдублировалось в официальный Registry (https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest) внимание на \"дополнительные соглашения\" внизу README каждого модуля.",
+        "description": "all AWS modules for Terraform supported by the community have also been duplicated into the official Registry (https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest) focusing on \"additional agreements\" at the bottom of each module's README.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -6011,7 +5475,7 @@
         "problem_type": "political_slogans",
         "name": "dry-rb",
         "commit_link": "https://github.com/dry-rb/dry-rb.org/commit/70be9b42a4d85c7d4025bdb7b98d4e5c72945d03",
-        "description": "На сайте с документацией в заголовке появились политические призывы к \"российским друзьям\" - https://dry-rb.org",
+        "description": "The site with the documentation in the title appeared political calls to \"Russian friends\" - https://dry-rb.org",
         "PURL-link": "",
         "PURL": ""
     },
@@ -6181,7 +5645,7 @@
         "problem_type": "political_slogans",
         "name": "Cucumber JS (NPM package)",
         "commit_link": "https://github.com/cucumber/cucumber-js/commit/94458aaf07146ee3069e3b2d536ca773e5faec54",
-        "description": "Cucumber (NPM package \"@cucumber/cucumber\") - added StandWithUkraine banner in в README.md",
+        "description": "Cucumber (NPM package \"@cucumber/cucucumber\") - added StandWithUkraine banner in README.md",
         "PURL-link": "",
         "PURL": ""
     },
@@ -6351,29 +5815,9 @@
         "problem_type": "political_slogans",
         "name": "composer/packagist",
         "commit_link": "https://github.com/composer/packagist/commit/86244a3695fcaaac9c5ba4257a4314eae1c6d981",
-        "description": "Менеджер пакетов для PHP. При скачивании пакетов в терминале выводит текст: \"Info from https://repo.packagist.org: #StandWithUkraine\".\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "https://github.com/composer/packagist/pull/1270",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Автор добавил их в публичный репозиторий packagist так что апгрейд/даунгрейд самого composer.phar не поможет. Кому-то CI/CD поломало лозунги пишутся в stderr. Решение: https://github.com/open-composer/composer/issues/3#issuecomment-1087867491\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "Package Manager for PHP. When downloading packages in the terminal displays the text: \"Info from https://repo.packagist.org: #StandWithUkraine\".\nhttps:/ /github.com/composer/packagist/pull/1270\nThe author added them to the public repository packagist so that the upgrade/downgrade of the composer.phar itself will not help. Someone CI/CD broke the slogans written in stderr. Decision: https://github.com/open-composer/composer/issues/3#issuecomment-1087867491",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "436",
@@ -6381,7 +5825,7 @@
         "problem_type": "political_slogans",
         "name": "Macintosh Repository",
         "commit_link": "https://macintoshrepository.org",
-        "description": "Добавлен призыв \"Пожалуйста остановите войну\" внизу страницы https://imgbox.com/5BGEAhrx",
+        "description": "Added the \"Please stop the war\" call at the bottom of https://imgbox.com/5BGEAhrx page",
         "PURL-link": "",
         "PURL": ""
     },
@@ -6411,7 +5855,7 @@
         "problem_type": "political_slogans",
         "name": ".NET Fiddle",
         "commit_link": "https://dotnetfiddle.net",
-        "description": "Баннер на сайте https://dotnetfiddle.net \"We Stand with Ukraine\"",
+        "description": "Banner on https://dotnetfiddle.net \"We Stand with Ukraine\"",
         "PURL-link": "",
         "PURL": ""
     },
@@ -6491,19 +5935,9 @@
         "problem_type": "political_slogans",
         "name": "Selenide",
         "commit_link": "https://github.com/selenide/selenide.github.io/commit/fa6c212ee609a6c93de066d7c0c4e42e1b7f454d",
-        "description": "UI tests in Java. Опубликовали лозунги в блоге продукта. Сбор денег для украинской армии.\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "https://ru.selenide.org/2022/04/07/selenide-6.4.0/\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "UI tests in Java. Posted slogans on the product blog. Raising money for the Ukrainian army.\nhttps://e.selenide.org/2022/04/07/selenide-6.4.0",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "464",
@@ -6531,39 +5965,9 @@
         "problem_type": "political_slogans",
         "name": "CleanMyMac X",
         "commit_link": "https://apps.apple.com/us/app/cleanmymac-x/id1339170533?mt=12",
-        "description": "Политические лозунги логотип сбор денег.\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Version 4.10.4",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "A new category in the Uninstaller module — Suspicious — where CleanMyMac puts apps associated with or owned by Russian or Belarusian developers.",
-        "datetime": null,
-        "problem_type": null,
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Updated the Ukrainian theme and added an ability to switch it off in the Preferences.\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "Political slogans are the logo of collecting money.\nVersion 4.10.4\nA new category in the Uninstaller module - Suspicious - where CleanMyMac puts apps associated with or owned by Russian or Belarusian developers.\nUpdated the Ukrainian theme and added an ability to switch it off in the Preferences.",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "468",
@@ -6641,7 +6045,7 @@
         "problem_type": "political_slogans",
         "name": "jenkins",
         "commit_link": "https://www.jenkins.io",
-        "description": "Изменен логотип рядом \"We stand with the people of Ukraine...\"",
+        "description": "We stand with the people of Ukraine..",
         "PURL-link": "",
         "PURL": ""
     },
@@ -6691,7 +6095,7 @@
         "problem_type": "political_slogans",
         "name": "LameXP",
         "commit_link": "http://lamexp.sourceforge.net/",
-        "description": "При открытии \"lamexp.sourceforge.net\" вываливается огромная картинка с какого-то про-украинского митинга и внизу маленькая кнопочка перехода к основному разделу.",
+        "description": "When you open \"lamexp.sourceforge.net\", a huge picture falls out of some pro-Ukrainian rally and at the bottom a small button to move to the main section.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -6821,19 +6225,9 @@
         "problem_type": "political_slogans",
         "name": "Fluffy Mods for RimWorld",
         "commit_link": "https://github.com/fluffy-mods",
-        "description": "Ссылка на моды в Steam: https://steamcommunity.com/id/FluffyMods/myworkshopfiles/?appid=294100\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Разработчик — из Украины. Описание большинства модов содержит клевету по поводу СВО. Так как в репозиториях имеются .dll в виде бинарей (с закрытыми исходными кодами) то там может быть что-то и похуже политических лозунгов не хочется проверять.\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "Steam mod link: https://steamcommunity.com/id/FluffyMods/myworkshopfiles/ ?appid=294100\n\nThe developer is from Ukraine. The description of most mods contains slander about SVO. Since the repositories have .dll in the form of binaries (with closed source code), there may be something worse than political slogans do not want to check.",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "539",
@@ -6871,19 +6265,9 @@
         "problem_type": "political_slogans",
         "name": "Hiveon mining pool",
         "commit_link": "https://hiveon.net",
-        "description": "Слева вверху баннер-ссылка на на страницу https://hiveon.com/blog/standforpeace/ для сбора пожертвований для армии Украины.\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Для российский IP баннер и страница не отображаются.\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "At the top left is a banner link to https://hiveon.com/blog/standforpeace/ to collect donations for the Ukrainian army.\nFor Russian IP banner and page are not displayed.",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "549",
@@ -6951,19 +6335,9 @@
         "problem_type": "political_slogans",
         "name": "World Air Quality Index",
         "commit_link": "https://aqicn.org",
-        "description": "Air Pollution map. На сайте с некоторой задержкой отображается alert-диалог с пропагандой. Похоже владельцы сайта стали жертвой библиотеки EventSource polyfill. Напишите пожалуйста кто-нибудь разработчикам.\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "The library EventSource displays political slogans on your site. To do this it uses the alert() function with a 15 sec timeout if the user's time zone is Russian. After that the library opens a political/malicious website in a pop-up window. https://github.com/Yaffle/EventSource/issues/199\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "Air Pollution map. The site displays an alert dialogue with propaganda with some delay. It looks like the site's owners have fallen victim to the EventSource polyfill library. Please write to the developers.\nThe library EventSource displays political slogans on your site. To do this it uses the alert() function with a 15 sec timeout if the user's time zone is Russian. After that the library opens a political/malicious website in a pop-up window. https://github.com/Yaffle/EventSource/issues/199",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "569",
@@ -7101,7 +6475,7 @@
         "problem_type": "political_slogans",
         "name": "Magic Enum",
         "commit_link": "https://github.com/Neargye/magic_enum/commit/b2ac76235b2261305bdfe562eb5982c808d07e73",
-        "description": "Баннер \"Stand With Ukraine\"",
+        "description": "Banner \"Stand With Ukraine\"",
         "PURL-link": "",
         "PURL": ""
     },
@@ -7111,7 +6485,7 @@
         "problem_type": "political_slogans",
         "name": "facebook/chisel",
         "commit_link": "https://github.com/facebook/chisel",
-        "description": "плашка \"Support Ukraine\" в README",
+        "description": "\"Support Ukraine\" in README",
         "PURL-link": "",
         "PURL": ""
     },
@@ -7191,19 +6565,9 @@
         "problem_type": "political_slogans",
         "name": "AdBlockPlus (browser extension)",
         "commit_link": "https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/",
-        "description": "ABP в 2016 году запустил сервис Acceptable Ads Platform https://habr.com/ru/post/310006/\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Т.е. ABP заменяет чужую \"\"неприемлемую\"\" рекламу на проплаченную \"\"приемлемую\"\". Среди \"\"приемлемой\"\" рекламы замечены случаи показа украинской пропаганды. Рекомендуется использовать честные блокировщики рекламы например uBlock Origin\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "ABP launched Acceptable Ads Platform in 2016 https://habr.com/en/post/310006/\nIe. ABP replaces “unacceptable” advertising with “acceptable” advertising. Among the \"acceptable\" advertising there are cases of displaying Ukrainian propaganda. Use honest ad blockers like uBlock Origin",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "644",
@@ -7331,7 +6695,7 @@
         "problem_type": "political_slogans",
         "name": "host-tracker",
         "commit_link": "https://www.host-tracker.com/",
-        "description": "Сервис проверки доступности сайта. Плашка на главной про \"нет войне\".",
+        "description": "Website availability check service. The pointer on the main \"no war.\".",
         "PURL-link": "",
         "PURL": ""
     },
@@ -7341,7 +6705,7 @@
         "problem_type": "political_slogans",
         "name": "SELKS (StamusNetwork)",
         "commit_link": "https://www.stamus-networks.com/en-us/landing/russia-ukraine-statement",
-        "description": "Во вкладке \"Resourses\" ссылка на заявление с антироссийской трактовкой конфликта",
+        "description": "In the \"Resourses\" tab, a link to a statement with an anti-Russian interpretation of the conflict",
         "PURL-link": "",
         "PURL": ""
     },
@@ -7351,7 +6715,7 @@
         "problem_type": "political_slogans",
         "name": "bdseo",
         "commit_link": "https://bdseo.ru/",
-        "description": "\"Блог вебмастера\". Флаг Украины и лозунг \"Слава ВСУ\".",
+        "description": "Webmaster Blog. The flag of Ukraine and the slogan \"Glory to the Armed Forces of Ukraine\".",
         "PURL-link": "",
         "PURL": ""
     },
@@ -7491,7 +6855,7 @@
         "problem_type": "political_slogans",
         "name": "ShellHacks Command-Line Tips",
         "commit_link": "https://www.shellhacks.com/",
-        "description": "Баннер \"Stop the War in Urkaine\" со ссылкой на украинский сайт для поддержки войны.",
+        "description": "Banner \"Stop the War in Urkaine\" with a link to the Ukrainian website to support the war.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -7551,19 +6915,9 @@
         "problem_type": "political_slogans",
         "name": "Vectornator",
         "commit_link": "https://www.vectornator.io/blog/standing-with-ukraine/",
-        "description": "Программа-рисовалка. Пропаганда истории очевидцев только с одной стороны.\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "Призывают жертвовать фондам в том числе Come Back Alive оказывающей поддержку ВСУ.\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "Drawing program. Propaganda of eyewitness stories from one side only.\nCall for donations to funds including Come Back Alive, which provides support to the AFU.",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "732",
@@ -7571,19 +6925,9 @@
         "problem_type": "political_slogans",
         "name": "Pixelmator",
         "commit_link": "https://www.pixelmator.com/community/viewtopic.php?p=66192",
-        "description": "Графический редактор. Литовская компания в штате есть украинцы. В комментариях https://www.pixelmator.com/community/viewtopic.php?p=66192 команда выражает поддержку Украине:\n",
-        "PURL-link": null,
-        "PURL": null
-    },
-    {
-        "id": "we have a colleague working remotely in Ukraine and as a Lithuanian-based company Russia's invasion of Ukraine has quite deeply affected all of us over the past two months so the codename was chosen as an expression of support for Ukraine\"\". Высокий риск блокировки услуг для пользователей из РФ.\"",
-        "datetime": "",
-        "problem_type": "",
-        "name": null,
-        "commit_link": null,
-        "description": null,
-        "PURL-link": null,
-        "PURL": null
+        "description": "Graphic editor. The Lithuanian company in the state has Ukrainians. In comments https://www.pixelmator.com/community/viewtopic.php?p=66192, the team expresses support for Ukraine:\nWe have a colleague working remotely in Ukraine and as a Lithuanian-based company Russia's invasion of Ukraine has quite deeply affected all of us over the past two months so the codename was chosen as an expression of support for Ukraine. High risk of blocking services for users from the Russian Federation.",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "733",
@@ -7591,7 +6935,7 @@
         "problem_type": "political_slogans",
         "name": "HDRezka",
         "commit_link": "https://hdrezka.ag/",
-        "description": "Пиратский сайт просмотра кино и сериалов. Стали вывешивать проукраинские баннеры в стиле \"инструкции как сдаваться в плен\" и \"Слава Украине\".",
+        "description": "Pirate site for watching movies and TV series. Pro-Ukrainian banners were posted in the style of “instructions on how to surrender” and “Glory to Ukraine”.",
         "PURL-link": "",
         "PURL": ""
     },
@@ -7781,7 +7125,7 @@
         "problem_type": "political_slogans",
         "name": "pdf-manuals",
         "commit_link": "https://pdf-manuals.ru/",
-        "description": "При загрузке инструкции над кнопкой отображается надпись \"Остановите войну с Украиной\" загруженные файлы вместо инструкций содержат страницу стихотворения с фоном в виде украинского флага",
+        "description": "When downloading the instructions above the button displays the inscription \"Stop the war with Ukraine\" downloaded files instead of instructions contain a page of a poem with a background in the form of a Ukrainian flag",
         "PURL-link": "",
         "PURL": ""
     },
@@ -7791,7 +7135,7 @@
         "problem_type": "political_slogans",
         "name": "LammeXP",
         "commit_link": "https://lamexp.sourceforge.net/",
-        "description": "Сайт программы содержит большое фото антироссийского митинга со всеми этими \"FCK PTN\".",
+        "description": "The program's website contains a large photo of an anti-Russian rally with all these \"FCK PTNs.\".",
         "PURL-link": "",
         "PURL": ""
     },
@@ -7830,7 +7174,7 @@
         "datetime": "2023-11-15 09:15:00",
         "problem_type": "political_slogans",
         "name": "Week number",
-        "commit_link": "https://week numbers.rf",
+        "commit_link": "https://номернедели.рф",
         "description": "The flag of Ukraine in the header and in the picture in the search results",
         "PURL-link": "",
         "PURL": ""
@@ -7861,7 +7205,7 @@
         "problem_type": "political_slogans",
         "name": "OrbitalMarket - Enhanced marketplace",
         "commit_link": "https://github.com/hugoattal/OrbitalMarket/commit/325547d22239e398c02a982f76c860b4a108c20a",
-        "description": "\"Orbital Market stands with Ukraine\" в README и на сайте",
+        "description": "\"Orbital Market stands with Ukraine\" at README",
         "PURL-link": "",
         "PURL": ""
     },
@@ -8071,13 +7415,9 @@
         "problem_type": "political_slogans",
         "name": "notepad-plus-plus/notepad-plus-plus",
         "commit_link": "https://github.com/notepad-plus-plus/notepad-plus-plus/commit/f6ade2c9157e7c6a56c95dfd04c436df512ca028",
-        "description": "Calls by project code",
-        "PURL-link": " например",
-        "PURL": " \"\"Stand Up For Ukraine\"\"\"",
-        "null": [
-            "",
-            ""
-        ]
+        "description": "Calls by project code, for example, \"Stand Up For Ukraine\"",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "821",
@@ -8085,13 +7425,9 @@
         "problem_type": "political_slogans",
         "name": "nanomsg/nng",
         "commit_link": "https://github.com/nanomsg/nng/commit/56ab68b877b8e499bb182f8c57bfc11816b869ab",
-        "description": "Calls by project code",
-        "PURL-link": " например",
-        "PURL": " \"\"Остановите безумие. Закончить войну. Верни ребят домой\"\"\"",
-        "null": [
-            "",
-            ""
-        ]
+        "description": "Project code calls, such as \"Stop the Madness.\" End the war. Bring the boys home",
+        "PURL-link": "",
+        "PURL": ""
     },
     {
         "id": "823",
