@@ -16,6 +16,7 @@ on:
     paths:
       - 'data/**'
   workflow_dispatch:
+  workflow_call:
   schedule:
     - cron: '0 2 * * *'
 
@@ -88,7 +89,7 @@ jobs:
         fi
     
     - name: Upload artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: always()
       with:
         name: translated-data
@@ -110,7 +111,7 @@ jobs:
     
     - name: Comment on PR
       if: github.event_name == 'pull_request'
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       with:
         script: |
           const fs = require('fs');
@@ -134,7 +135,7 @@ jobs:
         ref: main
     
     - name: Download translated data
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: translated-data
         path: data-en/
