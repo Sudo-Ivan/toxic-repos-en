@@ -39,6 +39,7 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y curl python3-pip
+        pip3 install --upgrade pip
     
     - name: Check if data exists
       run: |
@@ -51,6 +52,12 @@ jobs:
     - name: Set up Docker for LibreTranslate
       run: |
         docker pull libretranslate/libretranslate:latest
+    
+    - name: Make scripts executable
+      run: |
+        chmod +x ./scripts/*.sh
+        chmod +x ./scripts/*.py
+        chmod +x ./workflow.sh
     
     - name: Run translation workflow
       run: |

@@ -118,7 +118,16 @@ fi
 
 echo ""
 echo "Starting translation process..."
-./scripts/translate.sh
+python3 ./scripts/translate.py "./data/csv/toxic-repos.csv" "./data-en/csv/toxic-repos.csv" "http://127.0.0.1:5000"
+
+# Convert to other formats using the Python script
+if [[ -f "./scripts/convert_database_to_other_formats.py" ]]; then
+    echo "Converting translated CSV to JSON and SQLite formats..."
+    python3 ./scripts/convert_database_to_other_formats.py "./data-en/csv/toxic-repos.csv" "./data-en/"
+    echo "All formats created in data-en directory"
+else
+    echo "Warning: convert_database_to_other_formats.py not found, only CSV format created"
+fi
 
 if [[ "$SKIP_LIBRETRANSLATE_START" == "false" ]]; then
     echo ""
